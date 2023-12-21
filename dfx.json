@@ -1,0 +1,13 @@
+{
+    "canisters": {
+        "kushite_hackathon": {
+            "type": "custom",
+            "main": "src/index.ts",
+            "candid": "src/index.did",
+            "build": "npx azle kushite_hackathon",
+            "wasm": ".azle/kushite_hackathon/kushite_hackathon.wasm",
+            "gzip": true
+        }
+    }
+}
+
